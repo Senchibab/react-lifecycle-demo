@@ -27,7 +27,7 @@ console.log("should update called")
     console.log("snapshot called")
     return null;
   } 
-     componentWillMount(){
+     componentWillUnmount(){
     console.log("will mount called");
   }
   render() 
